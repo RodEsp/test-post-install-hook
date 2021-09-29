@@ -2,7 +2,9 @@
   "name": "@rodesp/test-post-install-hook",
   "version": "0.0.1",
   "description": "Testing installing a different npm package using a post install hook",
-  "main": "index.js",
+  "bin": {
+    "tpih": "index.js"
+  },
   "scripts": {
     "test": "echo \"no test specified\"",
     "postinstall": "npm install @salesforce/cli -g"
