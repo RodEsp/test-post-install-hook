@@ -8,7 +8,6 @@
   "scripts": {
     "test": "echo \"no test specified\"",
     "postinstall": "npm install @salesforce/cli -g"
-
   },
   "repository": {
     "type": "git",
@@ -19,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/RodEsp/test-post-install-hook/issues"
   },
-  "homepage": "https://github.com/RodEsp/test-post-install-hook#readme"
+  "homepage": "https://github.com/RodEsp/test-post-install-hook#readme",
+  "dependencies": {
+    "sfdx-cli": "git@github.com:salesforcecli/sfdx-cli.git#re\/dont-depend-on-sf"
+  }
 }
