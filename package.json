@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/RodEsp/test-post-install-hook#readme",
   "dependencies": {
-    "sfdx-cli": "dev"
+    "sfdx-cli": "^7.122.0-dev.0"
   }
 }
