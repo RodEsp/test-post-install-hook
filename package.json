@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/RodEsp/test-post-install-hook#readme",
   "dependencies": {
-    "sfdx-cli": "git@github.com:salesforcecli/sfdx-cli.git#re\/dont-depend-on-sf"
+    "sfdx-cli": "dev"
   }
 }
